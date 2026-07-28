@@ -1,8 +1,9 @@
 arr = [1, 2, 3, 4]
 sum = 0
-length = len(arr)
+count = 0
 for i in arr:
     square = i*i
     sum = sum + square
-    average = sum/length
+    count = count + 1
+    average = sum/count
 print(average)
